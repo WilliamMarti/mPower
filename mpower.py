@@ -3,8 +3,6 @@ def main(hostname, port, status):
 
 
   # display some lines
-
-
   print hostname
   print port
   print status
@@ -38,7 +36,6 @@ def main(hostname, port, status):
   for line in data:
     print line
 
-  print "we got here"
 
 
 
@@ -46,7 +43,14 @@ def main(hostname, port, status):
 
 if __name__ == "__main__":
   import sys
-  import paramiko
+  
+  try:
+    import paramiko
+    print "Paramiko Found"
+  except ImportError:
+    print "Missing 'Paramiko' Package"
+    
+
 
   hostname = sys.argv[1]
   port = sys.argv[2]

@@ -8,22 +8,27 @@ def main(hostname, port, status):
   print hostname
   print port
   print status
+  
 
-
-  username =  "vagrant";
+  user =  "vagrant";
   password =  "vagrant";
-
+  tcpport = 22;
 
   ssh = paramiko.SSHClient()
   ssh.set_missing_host_key_policy(
     paramiko.AutoAddPolicy())
-  ssh.connect('127.0.0.1', username='vagrant',
-    password='vagrant')
+  ssh.connect(hostname,tcpport,user,password)
 
 
-  stdin, stdout, stderr = ssh.exec_command(
-    "uptime")
 
+  port = '/dev/output' + port
+
+  if status == 'up':
+    stdin, stdout, stderr = ssh.exec_command(
+      "echo 0 >" + port)
+  else:
+    stdin, stdout, stderr = ssh.exec_command(
+      "echo 1 >" + port)
   stdin.flush()
 
   data = stdout.read().splitlines()

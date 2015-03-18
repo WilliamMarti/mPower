@@ -1,3 +1,5 @@
+import paramiko, sys
+
 def turnOffPort(hostname,port):
 
   user = "vagrant"
@@ -34,7 +36,7 @@ def turnOnPort(hostname,port):
   stdin, stdout, stderr = ssh.exec_command("uptime")
   #stdin, stdout, stderr = ssh.exec_command(cmd)
   
-  print "Port " + port + " has been turned"
+  print "Port " + port + " has been turned up"
   
 def main(hostname, port, status):
 
@@ -45,17 +47,6 @@ def main(hostname, port, status):
     turnOffPort(hostname, port)
 
 if __name__ == "__main__":
-  import sys
-  
-  try:
-    import paramiko
-    print "Paramiko Found"
-  except ImportError:
-    print "Missing 'Paramiko' Package"
-    sys.exit("""Missing 'Paramiko' Package
-                Pleaes run 'pip install Paramiko'""")
-    
-
 
   hostname = sys.argv[1]
   port = sys.argv[2]

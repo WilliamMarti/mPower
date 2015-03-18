@@ -49,6 +49,8 @@ if __name__ == "__main__":
     print "Paramiko Found"
   except ImportError:
     print "Missing 'Paramiko' Package"
+    sys.exit("""Missing 'Paramiko' Package
+                Pleaes run 'pip install Paramiko'""")
     
 
 

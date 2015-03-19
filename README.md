@@ -1,6 +1,6 @@
 # mPower
 Control mPower Pro Units
-
+Has been tested succesfully on mFi v2.1.8
 
 Python Code to connect to mPower unit and either turn on, or off, a a port
 

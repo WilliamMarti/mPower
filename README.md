@@ -13,7 +13,7 @@ OR
 
 run "python mpower.py x y z'
 
-Where z would be the host ip, 2 is the port # to change, and z is 'up' or 'down'.  
+Where x would be the host ip, y is the port # to change, and z is 'up' or 'down'.  
 
 #Example
 

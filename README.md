@@ -19,5 +19,5 @@ Where x would be the host ip, y is the port # to change, and z is 'up' or 'down'
 
 >python mpower.py 127.0.0.1 2 up
 
-Change the status of 2 on host 127.0.0.1 to up
+Change the status of port 2 on host 127.0.0.1 to up
 

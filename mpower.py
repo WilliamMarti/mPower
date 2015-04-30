@@ -33,6 +33,7 @@ def turnOffPort(hostname,port):
   
   print "Port " + port + " has been shutoff"
 
+#Function to turn off Port
 def turnOnPort(hostname,port):
 
   user = "vagrant"

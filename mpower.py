@@ -14,7 +14,7 @@ def validate_ip(s):
     return True
 
 
-
+#Function to turn off Ports
 def turnOffPort(hostname,port):
 
   user = "vagrant"

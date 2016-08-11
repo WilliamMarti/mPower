@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/WilliamMarti/mPower.svg?branch=master)](https://travis-ci.org/WilliamMarti/mPower)
+[![Dependency Status](https://gemnasium.com/badges/github.com/WilliamMarti/mPower.svg)](https://gemnasium.com/github.com/WilliamMarti/mPower)
 
 # mPower
 Control mPower Pro Units

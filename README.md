@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/WilliamMarti/infoblox.svg?branch=master)](https://travis-ci.org/WilliamMarti/infoblox)
+
 # mPower
 Control mPower Pro Units
 

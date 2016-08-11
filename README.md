@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/WilliamMarti/mpower.svg?branch=master)](https://travis-ci.org/WilliamMarti/mpower)
+[![Build Status](https://travis-ci.org/WilliamMarti/mPower.svg?branch=master)](https://travis-ci.org/WilliamMarti/mPower)
 
 # mPower
 Control mPower Pro Units

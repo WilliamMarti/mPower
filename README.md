@@ -1,8 +1,8 @@
 [![Build Status](https://travis-ci.org/WilliamMarti/mPower.svg?branch=master)](https://travis-ci.org/WilliamMarti/mPower)
 [![Dependency Status](https://gemnasium.com/badges/github.com/WilliamMarti/mPower.svg)](https://gemnasium.com/github.com/WilliamMarti/mPower)
 
-# mPower
-Control mPower Pro Units
+# Ubiquity mPower
+Control Ubiquity mPower Pro Units
 
 Python Code to connect to mPower unit and either turn on, or off, a a port
 
